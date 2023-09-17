@@ -1,0 +1,218 @@
+:root {
+    --text: #000e23;
+    --background: #dce9ff;
+    --primary: #10d187;
+    --secondary: #a9cafe;
+    --accent: #3e70c1;
+}
+
+
+.container-hero {
+    height: 80vh;
+    background-color: var(--primary);
+}
+
+.houses {
+    padding: 30px 30px 30px 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    grid-gap: 20px;
+    align-items: center;
+}
+
+.box > img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.box {
+    background-color: var(--secondary);
+    padding: 10px;
+    border-radius: 5px;
+}
+.htitle {
+    color: var(--text);
+    font-weight: bolder;
+    font-size: 26px;
+}
+
+.hprice {
+    color: var(--accent);
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.hlocation {
+    font-style: italic;
+}
+
+.box > button {
+    padding: 10px 40px;
+    margin-top: 30px;
+    margin-left: 28%;
+}
+
+/* the individual house page */
+
+.hero-main {
+    display: flex;
+    gap: 80px;
+    /* justify-content: space-between; */
+    padding: 50px 30px;
+}
+
+.smlimg {
+    margin-top: 20px;
+    display: flex;
+    gap: 22px;
+}
+
+.smlimg img {
+    cursor: pointer;
+    height: 70px;
+}
+
+.housetitle {
+    font-size: 48px;
+    font-weight: bolder;
+    color: var(--accent);
+    margin-bottom: 40px;
+}
+
+#hlist {
+    font-size: 26px;
+    list-style-type: none;
+}
+
+#hlist li {
+    margin-top: 10px;
+}
+
+.moredescription {
+    padding: 40px 120px;
+}
+
+.center {
+    text-align: center;
+}
+
+.reviews {
+    padding: 40px 100px;
+}
+
+.revbox {
+    background-color: var(--secondary);
+    padding: 20px 30px;
+    border-radius: 10px;
+    margin: 30px 0px;
+}
+
+.revname {
+    color: var(--accent);
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.revtitle {
+    font-style: italic;
+    font-size: 22px;
+    color: var(--primary);
+}
+
+/* start here page */
+
+.search {
+    text-align: center;
+    font-size: 48px;
+    font-weight: bolder;
+    color: var(--accent);
+    margin-bottom: 40px;
+    margin: 50px 0px;
+}
+
+.hsearch {
+    display: flex;
+    align-items: center;
+}
+
+.hsearch p {
+    background-color: var(--text);
+    color: var(--primary);
+    padding: 10px 60px;
+
+}
+
+hr {
+    border-top: 3px solid var(--primary);
+    width: 70%;
+}
+
+.identifier {
+    margin: 50px 20px;
+}
+
+.left-login {
+    background-color: #dfdfdfe5;
+    border-radius: 25px;
+    padding: 0px 10px 50px 10px;
+    margin: 0px 100px;
+}
+
+
+.realform {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 0 auto;
+}
+
+label {
+    font-size: 24px;
+    margin: 15px 0px;
+}
+
+input {
+    font-size: 24px;
+    padding: 5px 10px;
+}
+
+input[type="submit"] {
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.smalltxt {
+    font-size: 14px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+h2 {
+    color: var(--accent);
+    text-align: center;
+}
+
+.innerabout {
+    margin: 20px 120px;
+}
+
+button.taken {
+    background-color: red;
+}
+
+button.repair {
+    background-color: #ff00005d;
+}
+
+button.book {
+    background-color: #10d187;
+    font-weight: bold;
+    padding: 12px 26px;
+}
+
+button.book:hover {
+    background-color: #15fda4;
+    color: #001f4d;
+
+}

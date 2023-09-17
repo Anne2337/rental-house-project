@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+:root {
+    --text: #000e23;
+    --background: #dce9ff;
+    --primary: #10d187;
+    --secondary: #a9cafe;
+    --accent: #3e70c1;
+}
+
+body {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        background-color: var(--background);
+}
+
+button {
+    font-size: 18px;
+    padding: 8px 14px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    font-weight: bold;
+    transition: 500ms;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 30px;
+    background-color: var(--accent);
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.title {
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    margin: 40px 0px;
+}
+
+.logotxt {
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+    font-size: 28px;
+}
+.logo {
+    font-family: 'Roboto', sans-serif;
+    font-size: 70px;
+    font-weight: 900;
+    line-height: 1;
+    padding-bottom: 10px;
+    color: var(--text);
+}
+
+.logo > a {
+    color: var(--text);
+}
+
+.logo > a > span {
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    color: var(--text);
+}
+
+.menu-items {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-size: 20px;
+}
+
+.menu-items > li > a {
+    color: var(--background);
+}
+
+.menu-items>li>a:hover {
+    font-weight: bold;
+}
+
+.hero-section {
+    padding: 60px;
+    background-image: url(./images/cover.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.left {
+    background-color: #ffffff4b;
+    border-radius: 25px;
+    padding: 0px 10px 50px 10px;
+}
+
+.maintitler {
+    font-size: 70px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 100px;
+    padding: 40px 10px 0px 10px;
+    color: var(--text);
+}
+
+.othertxt {
+    color: var(--text);
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.hmbtns {
+    text-align: center;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.herobtn {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.herobtn:hover {
+    background-color: var(--accent);
+    color: var(--background);
+    border: solid 1px var(--text);
+}
+
+.box {
+    background-color: #ffffffad;
+    border-radius: 15px;
+    padding: 20px 30px 20px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.box img {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    padding: 2px;
+    border: 1px solid var(--accent);
+}
+
+.boxes {
+    display: flex;
+    gap: 40px;
+    margin: 0px 60px;
+}
+
+.box button {
+    background-color: var(--accent);
+}
+
+.stitle {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+footer {
+    background-color: var(--accent);
+    padding: 20px 0px;
+    text-align: center;
+    margin-top: 90px;
+}

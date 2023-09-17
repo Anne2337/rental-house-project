@@ -1,0 +1,203 @@
+:root {
+    --text: #000e23;
+    --background: #dce9ff;
+    --primary: #10d187;
+    --secondary: #a9cafe;
+    --accent: #3e70c1;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+span.admin {
+    font-size: 30px;
+}
+
+.menu {
+    margin-right: 80px;
+}
+
+.left-login {
+    background-color: #dfdfdfe5;
+    border-radius: 25px;
+    padding: 0px 10px 50px 10px;
+    margin: 0px 100px;
+}
+
+
+.realform {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 0 auto;
+}
+
+label {
+    font-size: 24px;
+    margin: 15px 0px;
+}
+
+input {
+    font-size: 24px;
+    padding: 5px 10px;
+}
+
+input[type="submit"] {
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.smalltxt {
+    font-size: 14px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+/* Style for the checkbox container */
+.checkbox-container {
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/* Hide the default browser checkbox input */
+.checkbox-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Style the custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Style the checked custom checkbox */
+.checkbox-container input:checked + .checkmark {
+    background-color: #2196F3;
+}
+
+/* Style the checkmark symbol */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark symbol when the checkbox is checked */
+.checkbox-container input:checked + .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark symbol itself */
+.checkbox-container .checkmark:after {
+    left: 8px;
+    top: 4px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+
+.reviews {
+    padding: 40px 100px;
+}
+
+.revbox {
+    background-color: var(--secondary);
+    padding: 20px 30px;
+    border-radius: 10px;
+    margin: 30px 0px;
+}
+
+.revname {
+    color: var(--accent);
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.revtitle {
+    font-style: italic;
+    font-size: 22px;
+    color: var(--primary);
+}
+
+.revtext {
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.sinlgebook {
+    margin-top: 100px;
+    margin: 100px 20px;
+    background-color: var(--secondary);
+    border-radius: 20px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left img {
+    height: 300px;
+}
+
+#hlist {
+    font-size: 26px;
+    list-style-type: none;
+}
+
+#hlist li {
+    margin-top: 10px;
+}
+
+.htitle {
+    color: var(--text);
+    font-weight: bolder;
+    font-size: 26px;
+}
+
+.htitles {
+    color: var(--accent);
+    font-weight: bolder;
+    font-size: 30px;
+    margin: 10px;
+    text-align: center;
+}
+
+.maintitler {
+    font-size: 70px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 100px;
+    padding: 40px 10px 0px 10px;
+    color: var(--text);
+}
+
+.aboxes {
+    margin-top: 60px;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.abox {
+    background-color: var(--secondary);
+    padding: 100px 80px;
+    border-radius: 5px;
+    font-size: 24px;
+}
